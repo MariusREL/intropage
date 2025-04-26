@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    text-align: center;
+
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+.btn {
+    height: 200px;
+    width: 400px;
+    font-size: 3rem;
+    background-color: inherit;
+    border: none;
+
+    }
+
+.btn:hover {
+    animation: colorCycle 5s infinite;
+}
+.topmedia {
+    display: flex;
+    justify-content: center;
+}
+.undermedia{
+    align-self: flex-end;
+}
+
+.btn {border-radius: 20%}
+
+.exc {width: 150px;
+height: 150px;
+transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+@keyframes colorCycle {
+    0%   { background-color: red; }
+    25%  { background-color: orange; }
+    50%  { background-color: yellow; }
+    75%  { background-color: green; }
+    100% { background-color: blue; }
+}
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease;
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.calculator-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+input {
+    gap:10px;
+    width: 200px;
+    align-items: center;
+    margin: 10px;
+}
+
+.operator { 
+    width: 60px;
+    height: 20px;
+    
+}
+
+body.default{
+    background-color: rgb(22, 21, 21);
+}
+body.darkmode {
+    background-color: rgb(20, 19, 19);
+    color: aliceblue;
+}
+body.lightmode {
+    background-color: aqua;
+}
+
+
+
+
