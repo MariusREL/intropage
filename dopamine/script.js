@@ -4,6 +4,7 @@ const button = document.getElementById('button');
 const images = document.querySelectorAll('img.exc');
 const toggleButton = document.getElementById("button");
 const calcButton = document.getElementById("calcbutton")
+const message = document.getElementById("footermessage")
 
 button.addEventListener('mouseenter', () => {
     images.forEach(img => {

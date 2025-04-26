@@ -10,21 +10,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <link
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 <body>
 
-    <h1>
+    <h1 class=" animate__animated ">
         Calculator and a Dopamine button    
     </h1>
     <div class="topmedia">
         <div class="undermedia">
             <img class="exc hidden" src="./img/excited2.jpg" alt="excited man">
-            <Button class="btn"><img class="btn button" src="./img/dopamin.svg" alt="Dopamine" id="button"></Button>
-        </div>
-            
-        <div class="undermedia">
+            <Button class="btn "><img class="dopamine-img button animate__animated animate__zoomInRight" src="./img/dopamin.svg" alt="Dopamine" id="button"></Button>
             <img class="exc hidden" src="./img/excited.jpg" alt="also an excited man">
+
         </div>
     </div>
 
@@ -54,8 +55,8 @@
 
 
     </section>
-    <Footer>
-        <h1 class="footer hidden">Wow, you did it</h1>
+    <Footer class="footer">
+        <h1 class="hidden footermessage">Wow, you did it</h1>
     </Footer>
 
 </body>

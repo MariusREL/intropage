@@ -3,6 +3,8 @@
 *::after {
     box-sizing: border-box;
 }
+
+
 * {
     margin: 0;
     padding: 0; 
@@ -18,13 +20,23 @@ h3 {
 }
 
 .btn {
-    height: 200px;
-    width: 400px;
-    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    max-width: 90vw;
+    padding: 1rem;
     background-color: inherit;
     border: none;
+}
 
-    }
+.dopamine-img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* control size */
+    min-width: 100px;
+    object-fit: contain;
+}
 
 .btn:hover {
     animation: colorCycle 5s infinite;
@@ -34,14 +46,17 @@ h3 {
     justify-content: center;
 }
 .undermedia{
-    align-self: flex-end;
+    justify-content: center;
+    display: flex;
+    flex: 1;
 }
 
-.btn {border-radius: 20%}
+
 
 .exc {width: 150px;
 height: 150px;
 transition: opacity 0.4s ease, visibility 0.4s ease;
+flex: 2;
 }
 
 @keyframes colorCycle {
