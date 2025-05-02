@@ -3,9 +3,9 @@
 let userName = ["heidiB", "AndersB"]
 let password = "mariuserdenkuleste";
 
-let signUpButton = document.querySelector(".signUpButton");
+let logInButton = document.querySelector(".logInButton");
 
-signUpButton.addEventListener("click", function() {
+logInButton.addEventListener("click", function() {
     let userNameInput = prompt("Enter Your Username: ");
 
     if (userName.some(name => name.toLowerCase() === userNameInput.toLowerCase())) {

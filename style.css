@@ -93,11 +93,11 @@ div ul {
     max-width: 450px;
 }
 
-.signUpButton {
+.logInButton {
     border-style: solid;
     border: 1px dotted black;
 }
-.signUpButton:hover {
+.logInButton:hover {
     background-color: #04386b;
     border: 2px dotted rgb(223, 210, 210);
 }
