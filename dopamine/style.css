@@ -31,9 +31,8 @@ h3 {
 }
 
 .dopamine-img {
-    width: 100%;
     height: auto;
-    max-width: 300px; /* control size */
+    max-width: 80%; /* control size */
     min-width: 100px;
     object-fit: contain;
 }
@@ -46,6 +45,7 @@ h3 {
     justify-content: center;
 }
 .undermedia{
+    max-width: 50%;
     justify-content: center;
     display: flex;
     flex: 1;
@@ -53,10 +53,11 @@ h3 {
 
 
 
-.exc {width: 150px;
-height: 150px;
-transition: opacity 0.4s ease, visibility 0.4s ease;
-flex: 2;
+.exc {
+    max-width: 200px;
+    height: 150px;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+    flex: 2;
 }
 
 @keyframes colorCycle {
