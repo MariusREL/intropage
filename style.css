@@ -40,12 +40,13 @@
   color: #939599;
 }
 
-.nav,
 .footer footer,
 .hero-section {
   background-color: #1f2937;
 }
-
+nav {
+  background-color: #2b3139;
+}
 nav,
 nav ul {
   width: 100%;
@@ -135,7 +136,7 @@ button {
 
 .aboutme p {
   padding: 20px;
-  max-width: 80%;
+  max-width: 60%;
   text-align: center;
   justify-content: center;
   flex: 1 1 auto;
