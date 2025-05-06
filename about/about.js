@@ -31,15 +31,26 @@ browserButton.addEventListener("click", function () {
   }
 });
 
-let a = +prompt("a?", "FIll out a number here");
+// let a = +prompt("a?", "FIll out a number here");
 
-if (a == 0) {
-  alert(0);
-}
-if (a == 1) {
-  alert(1);
-}
+// if (a == 0) {
+//   alert(0);
+// }
+// if (a == 1) {
+//   alert(1);
+// }
 
-if (a == 2 || a == 3) {
-  alert("2,3");
-}
+// if (a == 2 || a == 3) {
+//   alert("2,3");
+// }
+
+
+const birthYear = 1948;
+const thisYear = 1965;
+const firstName = "Carlos";
+const lastName = "Stevenson";
+const fullName = firstName + " " + lastName;
+const age = (thisYear - birthYear)
+const greeting = `Hello! My name is $(fullname) and i am $(age) years old. `
+
+console.log(greeting);
