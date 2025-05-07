@@ -19,9 +19,9 @@ browserButton.addEventListener("click", function () {
 const duckButton = document.getElementById("duckButton1")
 
 duckButton.addEventListener("mouseenter", () => {
-  duckButton.src = "/img/Duck02.svg";
+  duckButton.src = "../img/Duck02.svg";
 });
 
 duckButton.addEventListener("mouseleave", () => {
-  duckButton.src = "/img/Duck01.svg"
+  duckButton.src = "../img/Duck01.svg"
 });
