@@ -178,10 +178,14 @@ button {
 }
 
 .info img {
-  border: 5px solid blue;
   border-radius: 10%;
+  transition: transform 0.5s ease;
+
 }
 
+.info img:hover{
+  transform: scale(1.05);
+}
 .quote {
   background-color: #cdd0d6;
   font-style: italic;
