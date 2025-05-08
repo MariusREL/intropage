@@ -27,9 +27,9 @@ function handleButtonClick() {
     themeSwitcher();
     // Confetti burst
     confetti({
-        particleCount: 300,
-        spread: 70,
-        origin: { y: 0.6 }
+        particleCount: 100,
+        spread: 500,
+        origin: { y: 0.1 }
     });
     
 }

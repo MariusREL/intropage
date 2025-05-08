@@ -10,9 +10,9 @@
     padding: 0; 
 }
 
-body{
+body {
     text-align: center;
-
+    transition: background-color 1s, color 1s;
 }
 
 h3 {
@@ -100,13 +100,17 @@ input {
 
 body.default{
     background-color: rgb(22, 21, 21);
+    transition: 1s;
 }
 body.darkmode {
-    background-color: rgb(20, 19, 19);
+    background-color: rgb(39, 35, 35);
     color: aliceblue;
+    transition: 1s;
 }
 body.lightmode {
-    background-color: aqua;
+    background-color: rgb(88, 202, 202);
+    color: rgb(27, 27, 27);
+    transition: 1s;
 }
 
 
