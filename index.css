@@ -176,7 +176,13 @@ button {
   font-size: clamp(13px, 3vw, 18px);
   text-align: center;
 }
-
+.logo{
+  height: 100%
+}
+#logo {
+  height: 100%;
+  padding: 5px;
+}
 .info img {
   border-radius: 10%;
   transition: transform 0.5s ease;

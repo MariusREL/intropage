@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*,
 *,
 *::before,
 *::after {
@@ -37,6 +39,13 @@
     margin-right: auto;
     margin-left: 100px;
   }
+  .logo{
+  height: 100%
+}
+#logo {
+  height: 100%;
+  padding: 5px;
+}
   
   .link {
     font-size: 18px;
